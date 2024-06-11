@@ -613,27 +613,27 @@ html, body {
   grid-row: 1/3;
 }
 .plate--01 {
-  background-image: url("./../../img/collections/01.jpg");
+  background-image: url("./../img/collections/01.jpg");
 }
 @media (-webkit-min-device-piexl-ratio: 2), (min-resolution: 192dpi) {
   .plate--01 {
-    background-image: url("./../../img/collections/01@2x.jpg");
+    background-image: url("./../img/collections/01@2x.jpg");
   }
 }
 .plate--02 {
-  background-image: url("./../../img/collections/02.jpg");
+  background-image: url("./../img/collections/02.jpg");
 }
 @media (-webkit-min-device-piexl-ratio: 2), (min-resolution: 192dpi) {
   .plate--02 {
-    background-image: url("./../../img/collections/02@2x.jpg");
+    background-image: url("./../img/collections/02@2x.jpg");
   }
 }
 .plate--03 {
-  background-image: url("./../../img/collections/03.jpg");
+  background-image: url("./../img/collections/03.jpg");
 }
 @media (-webkit-min-device-piexl-ratio: 2), (min-resolution: 192dpi) {
   .plate--03 {
-    background-image: url("./../../img/collections/03@2x.jpg");
+    background-image: url("./../img/collections/03@2x.jpg");
   }
 }
 .plate__content {
@@ -673,14 +673,14 @@ html, body {
   left: 0;
   top: 0;
   background-color: #999;
-  background-image: url("./../../img/promotion/bg.jpg");
+  background-image: url("./../img/promotion/bg.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 @media (-webkit-min-device-piexl-ratio: 2), (min-resolution: 192dpi) {
   .promotion::before {
-    background-image: url("./../../img/promotion/bg@x2.jpg");
+    background-image: url("./../img/promotion/bg@x2.jpg");
   }
 }
 .promotion__container {
