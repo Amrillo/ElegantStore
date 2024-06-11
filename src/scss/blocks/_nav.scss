@@ -1,0 +1,44 @@
+.nav {
+    /* Navigation Bar */
+    padding: 16px 0;
+    background: linear-gradient(0deg, rgba(255, 171, 0, 0.64), rgba(255, 171, 0, 0.64)), #FFFFFF;
+
+    &__row {
+       display: flex;
+       justify-content: space-between;
+       align-items: center; 
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 40px;      
+    }
+
+    &__link {  
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        color: #141718;
+    }
+
+    &__btns {
+      display: flex;
+      align-items: center;  
+      gap: 17px;
+    }
+
+    &__btn-count { 
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        border-radius: 50%;
+        font-weight: 700;
+        font-size: 12px;
+        text-align: center;
+        color: var(--yellow);
+        background-color: #141718;
+        vertical-align: middle;
+    }
+}
